@@ -8,19 +8,20 @@ to figure out the day of the week for different dates.
 
 This algorithm relies on the following adjustment table:
 
-Month   Adjustment
-1       1
-2       4
-3       4
-4       0
-5       2
-6       5
-7       0
-8       3
-9       6
-10      1
-11      4
-12      6
+Month   |Adjustment
+--------|----------
+1       |1
+2       |4
+3       |4
+4       |0
+5       |2
+6       |5
+7       |0
+8       |3
+9       |6
+10      |1
+11      |4
+12      |6
 
 The algorithm for figuring out the date has the following steps:
 1. Write the date numerically, with the year as the number of years since 1900.
